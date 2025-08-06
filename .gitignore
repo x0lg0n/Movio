@@ -49,6 +49,35 @@ pids
 *.sln
 *.sw?
 
+# npm 
+.npm
+.npmrc
+package-lock.json
+
+#bun
+bun.lockb
+
+
 # pnpm
 pnpm-lock.yaml
 pnpm-workspace.yaml
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# IDEs
+.idea/
+.vscode/
+
+# Other
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+.env.local.example
+.env.example
+.env.*.example
