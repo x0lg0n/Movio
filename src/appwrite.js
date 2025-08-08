@@ -5,19 +5,34 @@ const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
 const ENDPOINT = import.meta.env.VITE_APPWRITE_ENDPOINT;
 
-const client = new Client().setEndpoint('https://fra.cloud.appwrite.io/v1').setProject(PROJECT_ID);
+const client = new Client();
+client
+.setEndpoint(ENDPOINT)
+.setProject(PROJECT_ID);
+
 const database = new Databases(client);
 
+// if it is connected to appwrite show a message 
+database
+  .listDocuments(DATABASE_ID, COLLECTION_ID)
+  .then((response) => {
+    console.log("✅ Connected to Appwrite DB");
+    console.log("Documents:", response.documents);
+  })
+  .catch((error) => {
+    console.error("❌ Failed to connect to Appwrite DB:", error.message);
+  });
 export const updateSearchCount = async (searchTerm, movie) => {
   // 1. Use Appwrite SDK to check if the search term exists in the database
   try {
     const result = await database.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal("searchTerm", searchTerm),
+      Query.equal('searchTerm', searchTerm),
     ]);
 
     // 2. If it exists, increment the count by 1
     if (result.documents.length > 0) {
       const doc = result.documents[0];
+
       await database.updateDocument(DATABASE_ID, COLLECTION_ID, doc.$id, {
         count: doc.count + 1,
       });

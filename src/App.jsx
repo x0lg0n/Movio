@@ -40,7 +40,7 @@ const App = () => {
         ? `${API_BASE_URL}/search/movie?query=${encodeURIComponent(
             query
           )}&language=en-US}&include_adult=true&include_video=true&page=1`
-        : `${API_BASE_URL}/discover/movie?sort_by=popularity.desc&include_adult=true&include_video=true&page=1`;
+        : `${API_BASE_URL}/discover/movie?sort_by=popularity.desc&include_adult=false&include_video=true&page=1`;
 
       const response = await fetch(endpoint, API_OPTIONS);
 
@@ -109,7 +109,7 @@ const App = () => {
                 {trendingMovies.map((movie, index) => (
                   <li key={movie.$id}>
                     <p>{index + 1}</p>
-                    <img src={movie.poster_url} alt={movie.title} />
+                    <img src={movie.posterURL} alt={movie.title} />
                   </li>
                 ))}
               </ul>
