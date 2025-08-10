@@ -1,29 +1,32 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: "🐞 Bug Report"
+about: Report a reproducible bug to help us improve the project
+title: "[BUG] <short description>"
 labels: bug
 ---
 
-## Describe the bug
-A clear and concise description of what the bug is.
+## 🐛 Bug Description
+A clear and concise description of the bug.
 
-## To Reproduce
-Steps to reproduce the behavior:
+## 🔄 Steps to Reproduce
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+2. Click on '...'
+3. Scroll down to '...'
 4. See error
 
-## Expected behavior
-A clear and concise description of what you expected to happen.
+## ✅ Expected Behavior
+What you expected to happen.
 
-## Screenshots
-If applicable, add screenshots to help explain your problem.
+## ❌ Actual Behavior
+What actually happened.
 
-## Environment
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-- Version [e.g. 22]
+## 📸 Screenshots / Logs
+If applicable, add screenshots or paste logs to help explain your problem.
 
-## Additional context
-Add any other context about the problem here.
+## 🖥️ Environment
+- OS: [e.g., Ubuntu 22.04]
+- Browser / Version: [e.g., Chrome 128]
+- App Version: [e.g., v1.2.3]
+
+## 📋 Additional Context
+Add any other context here.
