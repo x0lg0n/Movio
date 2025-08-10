@@ -11,7 +11,7 @@ Thanks for using Movio! This doc explains how to get help.
 - Open a new issue with steps to reproduce, expected vs actual, and screenshots/logs
 
 ## Security
-- See [SECURITY.md](./SECURITY.md)
+- See [SECURITY.md](https://github.com/x0lg0n/Movio/blob/master/.github/SECURITY.md)
 
 ## Community
 - Discord: invite link here once available

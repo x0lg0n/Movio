@@ -46,7 +46,7 @@ Prerequisites
 Setup
 ```bash
 # 1) Clone
-git clone https://github.com/your-username/movio.git
+git clone https://github.com/x0lg0n/movio.git
 cd movio
 
 # 2) Install deps
@@ -102,22 +102,45 @@ src/
 └─ index.css           # Global styles
 ```
 
+## 🛠️ Development
+- Build: `pnpm build` / `npm run build`
+- Dev Server: `pnpm dev` / `npm run dev`
+- Preview: `pnpm preview` / `npm run preview`
+- Typecheck: `pnpm typecheck` / `npm run typecheck`
+- Format: `pnpm format` / `npm run format`
+- Lint: `pnpm lint` / `npm run lint`
+
+
 ## 🧪 Quality
 - Lint: `pnpm lint`
 - Tests: Testing setup is not included yet. See ROADMAP for plans (Vitest + RTL).
-- Best Practices: see [BEST_PRACTICES.md](./BEST_PRACTICES.md)
+- Best Practices: see [BEST_PRACTICES.md](https://github.com/x0lg0n/Movio/blob/master/.github/BEST_PRACTICES.md)
 
 ## 🤝 Contributing
 We welcome contributions of all kinds! Read:
-- [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
-- [SECURITY.md](./SECURITY.md)
-- [SUPPORT.md](./SUPPORT.md)
+- [CONTRIBUTING.md](https://github.com/x0lg0n/Movio/blob/master/.github/CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](https://github.com/x0lg0n/Movio/blob/master/.github/CODE_OF_CONDUCT.md)
+- [SECURITY.md](https://github.com/x0lg0n/Movio/blob/master/.github/SECURITY.md)
+- [SUPPORT.md](.https://github.com/x0lg0n/Movio/blob/master/.github/SUPPORT.md)
 
 Create issues using our templates and submit PRs with the provided checklist.
 
+## 📖 Documentation
+- [Best Practices](https://github.com/x0lg0n/Movio/blob/master/.github/BEST_PRACTICES.md) : coding standards, testing guidelines, etc.
+- [Roadmap](https://github.com/x0lg0n/Movio/blob/master/.github/ROADMAP.md) : detailed feature timeline and priorities
+
+## CONTRIBUTORS
+Contributions are welcome! See [CONTRIBUTING.md](https://github.com/x0lg0n/Movio/blob/master/.github/CONTRIBUTING.md).
+<br/>
+<div align="center">
+<a href="https://github.com/x0lg0n/Movio/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=x0lg0n/Movio" />
+</a>
+</div>
+
+
 ## 🗺️ Roadmap (Anime-first, Netflix-like)
-A high-level view of our plans. Detailed milestones live in [ROADMAP.md](./ROADMAP.md).
+A high-level view of our plans. Detailed milestones live in [ROADMAP.md](https://github.com/x0lg0n/Movio/blob/master/.github/ROADMAP.md).
 
 Phase 1 — Foundation (Now)
 - [x] Search + results + trending
@@ -146,10 +169,10 @@ Phase 4 — Scale & Ecosystem (Q3–Q4 2026)
 Note: Any future “streaming” features will only support legally provided content and user-owned media. We do not endorse or include piracy.
 
 ## 🔒 Security
-Please report vulnerabilities responsibly. See [SECURITY.md](./SECURITY.md).
+Please report vulnerabilities responsibly. See [SECURITY.md](https://github.com/x0lg0n/Movio/blob/master/.github/SECURITY.md).
 
 ## 📄 License
-MIT © Contributors — see [LICENSE](./LICENSE)
+This project is licensed under the MIT © Contributors — see [LICENSE](https://github.com/x0lg0n/Movio/blob/master/LICENSE)
 
 ## 🙏 Acknowledgements
 - TMDB for content data (movies + animation)

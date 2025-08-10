@@ -4,7 +4,7 @@ First off, thank you for considering contributing to Movio! It's people like you
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code.
+This project and everyone participating in it is governed by our [Code of Conduct](https://github.com/x0lg0n/Movio/blob/master/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## How Can I Contribute?
 
@@ -181,7 +181,7 @@ We're particularly interested in contributions that enhance the anime experience
 ## Getting Help
 
 - Join our [Discord community](https://discord.gg/movio)
-- Check existing [GitHub Issues](https://github.com/yourusername/movio/issues)
+- Check existing [GitHub Issues](https://github.com/x0lg0n/Movio/issues)
 - Read the [documentation](https://docs.movio.dev)
 
 ## Recognition
