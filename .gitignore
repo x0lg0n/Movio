@@ -79,5 +79,4 @@ pnpm-workspace.yaml
 .env.production.local
 .env.staging.local
 .env.local.example
-.env.example
 .env.*.example
