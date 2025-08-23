@@ -1,4 +1,4 @@
-# 🎬 Movio — Open Anime Discovery Platform
+# 🎬 Movie.io — Open Anime/Movie Discovery Platform
 
 <div align="center">
   <img src="./public/hero.png" alt="Movio Banner" width="420"/>
